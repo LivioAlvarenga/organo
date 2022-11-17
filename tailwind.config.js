@@ -4,6 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        txColor: {
+          100: "#212121",
+        },
         principal: {
           100: "#6278f7",
           200: "#95ffd4",
@@ -27,6 +30,9 @@ module.exports = {
           600: "#FFBA05",
           700: "#FF8A29",
         },
+      },
+      boxShadow: {
+        "3xl": "10px 10px 30px rgba(0, 0, 0, 0.06)",
       },
     },
   },
