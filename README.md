@@ -16,7 +16,7 @@ Este projeto foi inicializado com [Create React App](https://github.com/facebook
 &nbsp;
 
 <hr>
-![Organo App](https://github.com/LivioAlvarenga/organo/blob/master/public/images/banner.png?raw=true#vitrinedev)
+![Organo App](https://github.com/LivioAlvarenga/organo/blob/master/public/images/banner.png#vitrinedev)
 <hr>
 
 &nbsp;
