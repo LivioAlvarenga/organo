@@ -67,6 +67,12 @@ Este projeto foi inicializado com [Create React App](https://github.com/facebook
 
 ## :floppy_disk: Desafios
 
+Adicionar Tailwindcss com objetivo de estilizar nossos componentes diretamente nas classNames eliminando a necessidade de arquivos.css de componentes.
+
+    1. Instalei Tailwindcss ao projeto;
+    2. Criei a paleta de cores no tailwind.config.js;
+    3. Adicionei na dependência de desenvolvimento prettier e prettier-plugin-tailwindcss para formatar de forma padronizada as tailwind class em classNames.
+
 Modificar comportamento padrão da seta do formulário no campo Time.
 
     1. Adicionei inline uma seta em SVG a direita;
