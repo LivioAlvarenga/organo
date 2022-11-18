@@ -67,7 +67,7 @@ Este projeto foi inicializado com [Create React App](https://github.com/facebook
 
 <a id="-desafios"></a>
 
-## :floppy_disk: Desafios
+## :dart: Desafios
 
 Adicionar Tailwindcss com objetivo de estilizar nossos componentes diretamente nas classNames eliminando a necessidade de arquivos.css de componentes.
 
