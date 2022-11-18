@@ -1,17 +1,20 @@
 const DropdownList = (props) => {
+  const whenChanged = (event) => {
+    props.toChange(event.target.value);
+  };
+
   return (
     <div className="group relative my-6 mx-0">
       <label className="mb-2 block text-lg font-semibold">{props.label}</label>
       <select
-        className="peer/select w-full cursor-pointer appearance-none border-none bg-white p-6 text-lg shadow-3xl"
         id="select"
+        className="peer/select w-full cursor-pointer appearance-none rounded-lg border-none bg-white p-6 text-lg shadow-3xl"
+        required={props.required}
+        onChange={whenChanged}
+        value={props.value}
       >
         {props.items.map((item) => {
-          return (
-            <option className="" key={item}>
-              {item}
-            </option>
-          );
+          return <option key={item}>{item}</option>;
         })}
       </select>
       <svg
