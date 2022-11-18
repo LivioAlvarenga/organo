@@ -6,12 +6,12 @@ Este projeto foi inicializado com [Create React App](https://github.com/facebook
 
 &nbsp;
 
-| :placard: Vitrine.Dev |                              |
-| --------------------- | ---------------------------- |
-| :sparkles: Nome       | **Organo projeto React App** |
-| :label: Tecnologias   | -                            |
-| :rocket: URL          | -                            |
-| :fire: Desafio        | -                            |
+| :placard: Vitrine.Dev |                                                                 |
+| --------------------- | --------------------------------------------------------------- |
+| :sparkles: Nome       | **Organo projeto React App**                                    |
+| :label: Tecnologias   | nodejs, javascript, html5, css3, reactjs, prettier, tailwindcss |
+| :rocket: URL          | -                                                               |
+| :fire: Desafio        | -                                                               |
 
 &nbsp;
 
