@@ -16,13 +16,14 @@ Este projeto foi inicializado com [Create React App](https://github.com/facebook
 &nbsp;
 
 <hr>
-![Organo App](https://github.com/LivioAlvarenga/organo/blob/main/files/javascript-code.jpg?raw=true#vitrinedev)
+![Organo App](https://github.com/LivioAlvarenga/organo/blob/master/public/images/banner.png?raw=true#vitrinedev)
 <hr>
 
 &nbsp;
 
 <p align="center">
   <a href="#-tecnologias-utilizadas">Tecnologias</a> -
+  <a href="#-desafios">Desafios</a> -
   <a href="#-funcionamento">Funcionamento</a> -
   <a href="#-contato">Contato</a>
 </p>
@@ -36,6 +37,7 @@ Este projeto foi inicializado com [Create React App](https://github.com/facebook
 <p align="center">
   <a href= "https://html5.org/"><img alt="html 5 badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=E34F26&logo=HTML5&label=Markup Language&message=HTML5&color=E34F26"></a>
   <a href= "https://developer.mozilla.org/pt-BR/docs/Web/CSS"><img alt="CSS 3 badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=1572B6&logo=CSS3&label=Style&message=CSS3&color=1572B6"></a>
+  <a href= "https://tailwindcss.com/"><img alt="Tailwind CSS badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=06b6d4&logo=Tailwind CSS&label=Style&message=Tailwind CSS&color=06b6d4"></a>
   <a href= "https://www.javascript.com/"><img alt="JavaScript badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=F7DF1E&logo=JavaScript&label=Language&message=JavaScript&color=F7DF1E"></a>
   <a href= "https://nodejs.org/en/"><img alt="Node.js badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=339933&logo=Node.js&label=Runtime Environment&message=Node.js&color=3139933"></a>
   <a href= "https://reactjs.org/"><img alt="React badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=61dafb&logo=React&label=Framework&message=React&color=61dafb"></a>
@@ -58,6 +60,18 @@ Este projeto foi inicializado com [Create React App](https://github.com/facebook
   <a href= "https://www.instagram.com/livio_alvarenga/"><img alt="perfil instagram livio alvarenga" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=E4405F&logo=Instagram&label=Instagram&message=@livio_alvarenga&color=E4405F"></a>
   <a href= "https://www.youtube.com/channel/UCrZgsh8IWyyNrRZ7cjrPbcg"><img alt="perfil youtube livio alvarenga" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=FF0000&logo=YouTube&label=Youtube&message=Livio Alvarenga&color=FF0000"></a>
 </p>
+
+&nbsp;
+
+<a id="-desafios"></a>
+
+## :floppy_disk: Desafios
+
+Modificar comportamento padrão da seta do formulário no campo Time.
+
+    1. Adicionei inline uma seta em SVG a direita;
+    2. Modifiquei a cor da seta;
+    3. Adicionei uma animação bounce ao passar o mouse no campo Time.
 
 &nbsp;
 
