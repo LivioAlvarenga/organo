@@ -17,10 +17,10 @@ const FormBox = (props) => {
       imagem,
       time,
     });
-    setNome("");
+    /* setNome("");
     setCargo("");
     setImagem("");
-    setTime("");
+    setTime(""); */
   };
   // obs nome, é igual a nome: nome. Pois, quando key e value possui o mesmo valor.
 
@@ -31,7 +31,7 @@ const FormBox = (props) => {
         className="max-w-[80%] rounded-3xl bg-principal-300 py-9 px-16 shadow-[8px_8px_16px_rgba(0,0,0,0.08)]"
       >
         <fieldset>
-          <legend className="text-3xl">
+          <legend className="text-3xl font-prata">
             Preencha os dados para criar o card do colaborador.
           </legend>
           <TextField

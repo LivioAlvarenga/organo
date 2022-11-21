@@ -23,8 +23,9 @@ function App() {
   };
 
   return (
-    <div className="App text-txColor-100">
+    <div className="App font-montserrat text-txColor-100">
       <Banner />
+
       <FormBox
         teamNames={teams.map((team) => team.name)}
         whenEmployeeIsRegistered={(employee) => toTheNewEmployeeAdded(employee)}
@@ -40,7 +41,9 @@ function App() {
           name={team.name}
           colorFundo={team.fundo}
           colorDestaque={team.destaque}
-          collaborators={collaborators.filter(collaborator => collaborator.time === team.name)}
+          collaborators={collaborators.filter(
+            (collaborator) => collaborator.time === team.name
+          )}
         />
       ))}
     </div>
