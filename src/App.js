@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 import FormBox from "./components/FormBox";
 import Team from "./components/Team";
 import TitleBottomBorder from "./components/TitleBottomBorder";
@@ -18,14 +19,12 @@ function App() {
   const [collaborators, setCollaborators] = useState([]);
 
   const toTheNewEmployeeAdded = (employee) => {
-    console.log(employee);
     setCollaborators([...collaborators, employee]);
   };
 
   return (
     <div className="App font-montserrat text-txColor-100">
       <Banner />
-
       <FormBox
         teamNames={teams.map((team) => team.name)}
         whenEmployeeIsRegistered={(employee) => toTheNewEmployeeAdded(employee)}
@@ -46,6 +45,7 @@ function App() {
           )}
         />
       ))}
+      <Footer />
     </div>
   );
 }

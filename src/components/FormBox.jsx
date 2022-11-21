@@ -17,10 +17,10 @@ const FormBox = (props) => {
       imagem,
       time,
     });
-    /* setNome("");
+    setNome("");
     setCargo("");
     setImagem("");
-    setTime(""); */
+    setTime("");
   };
   // obs nome, é igual a nome: nome. Pois, quando key e value possui o mesmo valor.
 
