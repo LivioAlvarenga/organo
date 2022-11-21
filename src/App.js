@@ -40,6 +40,7 @@ function App() {
           name={team.name}
           colorFundo={team.fundo}
           colorDestaque={team.destaque}
+          collaborators={collaborators.filter(collaborator => collaborator.time === team.name)}
         />
       ))}
     </div>
