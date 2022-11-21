@@ -85,7 +85,7 @@ Modificar comportamento padrão da seta do formulário no campo Time.
 
 ## :warning: Funcionamento
 
-![Organo App](https://github.com/LivioAlvarenga/organo/blob/master/public/images/organo.gif?raw=true)
+<img src="https://github.com/LivioAlvarenga/organo/blob/master/public/images/organo.gif?raw=true" width="500">
 
 &nbsp;
 
