@@ -4,20 +4,10 @@ import DropdownList from "./DropdownList";
 import TextField from "./TextField";
 
 const FormBox = (props) => {
-  const teams = [
-    "Programação",
-    "Front-End",
-    "Data Science",
-    "Devops",
-    "UX e Designer",
-    "Mobile",
-    "Inovação e Gestão",
-  ];
-
   const [nome, setNome] = useState("");
   const [cargo, setCargo] = useState("");
   const [imagem, setImagem] = useState("");
-  const [time, setTime] = useState(teams[0]);
+  const [time, setTime] = useState(props.teamNames[0]);
 
   const whenSaving = (event) => {
     event.preventDefault();
@@ -65,7 +55,7 @@ const FormBox = (props) => {
             toChange={(value) => setTime(value)}
             required={true}
             label="Time"
-            items={teams}
+            items={props.teamNames}
           />
           <Button>Criar Card</Button>
         </fieldset>

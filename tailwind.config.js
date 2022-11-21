@@ -12,7 +12,7 @@ module.exports = {
           200: "#95ffd4",
           300: "#f2f2f2",
         },
-        fundos: {
+        fundo: {
           100: "#D9F7E9",
           200: "#E8F8FF",
           300: "#F0F8E2",
@@ -21,7 +21,7 @@ module.exports = {
           600: "#FFF5D9",
           700: "#ffeedf",
         },
-        destaques: {
+        destaque: {
           100: "#57C278",
           200: "#82CFFA",
           300: "#A6D157",
